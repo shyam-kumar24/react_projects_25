@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.digital-clock{
+    margin-top: 30px;
+}
+
+.time{
+    font-size: 30px;
+    color: #ee0c3d;
+}
+
+.date {
+    font-size: 25px;
+    margin-top: 10px;
+    color: #807306;;
+}

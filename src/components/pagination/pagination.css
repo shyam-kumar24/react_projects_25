@@ -1,0 +1,78 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.buttons {
+    display: flex;
+    gap: 8px;
+}
+
+.button {
+    cursor: pointer;
+    background-color: rgb(212, 0, 255);
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.prev, .next {
+    cursor: pointer;
+    background-color: rgb(212, 0, 255);
+    padding: 10px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin-inline: auto;
+    align-items: center;
+    width: 100%;
+}
+
+.page-div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.pageItem-div {
+    width: 200px;
+    background-color: orange;
+    height: 50px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.button.active {
+    background-color: blue;
+    color: black;
+}
+
+.next:disabled {
+    background-color: gray;
+    color: black;
+    cursor: not-allowed;
+}
+
+.prev:disabled {
+    background-color: gray;
+    color: black;
+    cursor: not-allowed;
+}
