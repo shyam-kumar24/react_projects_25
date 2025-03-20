@@ -1,0 +1,45 @@
+/* body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: orangered;
+    background-color: blue;
+}
+
+.main-container {
+    max-width: 600px;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.input-div {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.time {
+    width: 100px;
+    height: 40px;
+    border: none;
+    outline: violet;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.btn-div {
+    display: flex;
+    gap: 5px;
+}
+
+.btn-div button {
+    height: 40px;
+    font-size: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(193, 10, 218);
+    cursor: pointer;
+    padding-inline: 10px;
+} */
