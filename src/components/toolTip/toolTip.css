@@ -1,0 +1,22 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+
+.tooltip-container{
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip {
+    position: absolute;
+    top: calc(-100% - 50px);
+    transform: translateX(-50%);
+    background-color: #101ee0fb;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 18px;
+    min-width: 300px;
+}

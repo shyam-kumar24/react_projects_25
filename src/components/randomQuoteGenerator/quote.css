@@ -1,0 +1,29 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+.main-container {
+    display: flex;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0px auto;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+
+.quotes-div {
+    background-color: rgb(164, 8, 211);
+    color: white;
+    padding-inline: 20px;
+}
+
+.refresh{
+    width: 100px;
+    letter-spacing: 4px;
+    height: 50px;
+    background-color: rgb(173, 185, 4);
+    font-weight: bold;
+}
