@@ -7,7 +7,10 @@
 // import RandomQuoteGenerator from './components/randomQuoteGenerator/index'
 // import ToolTipTest from './components/toolTip/test'
 // import CurrencyConverter from './components/currency_converter/index'
-import CurrencyConverter from './components/currency_converter/trialVersion/index'
+// import CurrencyConverter from './components/currency_converter/trialVersion/index'
+// import FilterProductsByCategory from './components/filterProducts/index'
+import TipCalculator from './components/tipCalculator/otherVersion/index'
+import TipCalculatorMe from './components/tipCalculator/index'
 
 function App() {
   return (
@@ -19,7 +22,12 @@ function App() {
     // <RandomQuoteGenerator />
     // <ToolTipTest />
     // <CurrencyConverter />
-    <CurrencyConverter />
+    // <CurrencyConverter />
+    // <FilterProductsByCategory/>
+    <>
+      <TipCalculator />
+      <TipCalculatorMe />
+    </>
   )
 }
 
