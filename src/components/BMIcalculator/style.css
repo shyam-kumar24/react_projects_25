@@ -1,0 +1,19 @@
+
+body {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 0px auto;
+    align-items: center;
+}
+
+.button {
+    width: 100px;
+    cursor: pointer;
+}

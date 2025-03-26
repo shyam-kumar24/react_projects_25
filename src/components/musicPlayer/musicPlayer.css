@@ -1,0 +1,35 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main-div {
+    margin-bottom: 50px;
+}
+
+.progress-bar {
+    width: 400px;
+    background-color: gray;
+    height: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.progress {
+    background-color: rgb(10, 66, 250);
+    height: 20px;
+    border-radius: 10px;
+}
+
+.buttons-div button {
+    padding-inline: 20px;
+    height: 40px;
+    background-color: yellow;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-inline: 10px;
+    cursor: pointer;
+}
